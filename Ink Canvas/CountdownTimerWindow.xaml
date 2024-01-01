@@ -9,7 +9,7 @@
         ui:ThemeManager.RequestedTheme="Light" Topmost="True" Background="Transparent"
         mc:Ignorable="d" WindowStyle="None" AllowsTransparency="True"
         Loaded="Window_Loaded" Closing="Window_Closing" WindowStartupLocation="CenterScreen"
-        Title="Ink Canvas 画板 - 计时器" Height="700" Width="1100">
+        Title="Drawing Board - Timer" Height="700" Width="1100">
     <Border Background="#F0F3F9" CornerRadius="10" BorderThickness="1" BorderBrush="#0066BF" Margin="60">
         <Grid>
             <TextBlock x:Name="TbCurrentTime" MouseDown="BtnMinimal_OnMouseUp" Visibility="Collapsed" FontSize="56" FontWeight="Black" HorizontalAlignment="Center" VerticalAlignment="Center" />
