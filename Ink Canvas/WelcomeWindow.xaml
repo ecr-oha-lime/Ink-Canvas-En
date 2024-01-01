@@ -19,7 +19,7 @@
             <CheckBox Name="CheckBoxSetAsRecommendation" FontFamily="Microsoft YaHei UI" Content="Configure as recommended settings" IsChecked="True"/>
             <CheckBox Name="CheckBoxRunAtStartup" FontFamily="Microsoft YaHei UI" Content="Run at startup" IsChecked="True"/>
             <CheckBox Name="CheckBoxAutoKillPptService" FontFamily="Microsoft YaHei UI" Content="Automatically turn off "Seewo PPT tools”" IsChecked="True"/>
-            <CheckBox Name="CheckBoxAutoKillEasiNote" FontFamily="Microsoft YaHei UI" Content="自动查杀“希沃白板 5”"/>
+            <CheckBox Name="CheckBoxAutoKillEasiNote" FontFamily="Microsoft YaHei UI" Content="Kill “Seewo Whiteboard 5” automatically"/>
             <CheckBox Name="CheckBoxNewBuildingOptimization" FontFamily="Microsoft YaHei UI" Content="New Comprehensive Building Optimization"/>
         </ui:SimpleStackPanel>
         <Button Grid.Row="2" Margin="0,0,10,10" FontFamily="Microsoft YaHei UI"
