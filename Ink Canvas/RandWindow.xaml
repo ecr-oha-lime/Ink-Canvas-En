@@ -8,7 +8,7 @@
         ui:ThemeManager.RequestedTheme="Light" Topmost="True" Background="Transparent"
         mc:Ignorable="d" WindowStyle="None" AllowsTransparency="True" Loaded="Window_Loaded"
         WindowStartupLocation="CenterScreen"
-        Title="抽奖 WPF by WXRIW (XY Wang)" Height="500" Width="900">
+        Title="Randomize WPF by WXRIW (XY Wang)" Height="500" Width="900">
     <Border Background="#F0F3F9" CornerRadius="10" BorderThickness="1" BorderBrush="#0066BF" Margin="0">
         <Grid>
             <Grid.ColumnDefinitions>
@@ -49,7 +49,7 @@
                             <Viewbox Margin="0,20">
                                 <ui:SymbolIcon Name="SymbolIconStart" Symbol="Contact" Foreground="White"/>
                             </Viewbox>
-                            <TextBlock Text="抽奖" Foreground="White" FontSize="35" Margin="-1,-1,4,0" VerticalAlignment="Center"/>
+                            <TextBlock Text="Randomize" Foreground="White" FontSize="35" Margin="-1,-1,4,0" VerticalAlignment="Center"/>
                         </ui:SimpleStackPanel>
                     </Border>
                     <Border x:Name="BorderBtnRandCover" Background="#BFBFBF" Visibility="Collapsed"
@@ -58,7 +58,7 @@
                             <Viewbox Margin="0,20">
                                 <ui:SymbolIcon Symbol="{Binding ElementName=SymbolIconStart, Path=Symbol}" Foreground="White"/>
                             </Viewbox>
-                            <TextBlock Text="抽奖" Foreground="White" FontSize="35" Margin="-1,-1,4,0" VerticalAlignment="Center"/>
+                            <TextBlock Text="Randomize" Foreground="White" FontSize="35" Margin="-1,-1,4,0" VerticalAlignment="Center"/>
                         </ui:SimpleStackPanel>
                     </Border>
                 </Grid>
@@ -74,7 +74,7 @@
                     <Viewbox Margin="15,12">
                         <ui:SymbolIcon Symbol="People" Foreground="Black"/>
                     </Viewbox>
-                    <TextBlock Margin="-5,12,15,12" Name="TextBlockPeopleCount" Text="点击此处以导入名单" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <TextBlock Margin="-5,12,15,12" Name="TextBlockPeopleCount" Text="Click here to import the list" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 </ui:SimpleStackPanel>
             </Border>
             <Border x:Name="BtnClose" MouseUp="BtnClose_MouseUp"
