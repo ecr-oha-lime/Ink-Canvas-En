@@ -14,15 +14,19 @@ A fantastic Ink Canvas in WPF/C#, with fantastic support for Seewo Boards.
 
 The school switched from traditional projectors to Seewo whiteboards. Developed this whiteboard due to the difficulty of using the pre-installed Seewo software and the lack of similar user-friendly drawing software. 
 
-  [<img src="https://get.microsoft.com/images/en-US%20dark.svg" style="width: 200px;"/>](https://www.microsoft.com/store/apps/9NXJFDD97XJ3?cid=ghreadme)
+  [<img src="https://get.microsoft.com/images/en-US%20dark.svg" style="width: 200px,"/>](https://www.microsoft.com/store/apps/9NXJFDD97XJ3?cid=ghreadme)
 </div>
 
 ## 🔧 Features
-Optimized support for Microsoft PowerPoint (strongly not recommended to use WPS, as it may cause WPS to freeze and WPS has poor touch screen support; PPT can be navigated by clicking, not swiping, and cannot be zoomed in or out)
-**One end of the pen writes with a fine tip, while the other end is an eraser (this function is not supported by Seewo whiteboard)**
-You can also erase directly with your hand (just like Seewo whiteboard)
-Supports Active Pen (pressure sensitivity)
-Similar functionality can be provided for other infrared screens; everyone is welcome to test it out!
+ Optimized support for Microsoft PowerPoint (strongly not recommended to use WPS, as it may cause WPS to freeze and WPS has poor touch screen support, PPT can be navigated by clicking, not swiping, and cannot be zoomed in or out)
+
+ **One end of the pen writes with a fine tip, while the other end is an eraser (this function is not supported by Seewo whiteboard)**
+
+You can also erase directly with your hand (just like Seewo whiteboard) 
+
+Supports Active Pen (pressure sensitivity) 
+
+Similar functionality can be provided for other infrared screens, everyone is welcome to test it out!
 
 ## ⚠️ Reminder
 - Before asking a question, please read the [FAQ](https://githubfast.com/WXRIW/Ink-Canvas#FAQ "FAQ").
@@ -46,7 +50,7 @@ If you have previously installed `WPS` and encountered this issue after uninstal
 
 Additionally, PPT files in protected (read-only) mode will not be recognized.
 
-### Why can't I launch the ** program after installation?
+### Why can't I launch the program after installation?
 Please check if `.Net Framework 4.7.2` or a higher version is installed on your computer. If not, please download it from the official website.
 If the issue persists, check if `Microsoft Office` is installed on your computer. If not, please install it and try again.
 
