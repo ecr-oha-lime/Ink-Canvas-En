@@ -25,7 +25,7 @@ namespace Ink_Canvas
 
         private void App_DispatcherUnhandledException(object sender, System.Windows.Threading.DispatcherUnhandledExceptionEventArgs e)
         {
-            Ink_Canvas.MainWindow.ShowNewMessage("抱歉，出现未预期的异常，可能导致 Ink Canvas 画板运行不稳定。\n建议保存墨迹后重启应用。", true);
+            Ink_Canvas.MainWindow.ShowNewMessage("Sorry, an unexpected exception has occurred, which may cause the Ink Canvas to run unstable.\n Suggest saving the ink traces and restarting the application.", true);
             LogHelper.NewLog(e.Exception.ToString());
             e.Handled = true;
         }
@@ -42,7 +42,7 @@ namespace Ink_Canvas
             if (!ret && !e.Args.Contains("-m")) //-m multiple
             {
                 LogHelper.NewLog("Detected existing instance");
-                MessageBox.Show("已有一个程序实例正在运行");
+                MessageBox.Show("An instance of Ink Canvas is already running.");
                 LogHelper.NewLog("Ink Canvas automatically closed");
                 Environment.Exit(0);
             }
