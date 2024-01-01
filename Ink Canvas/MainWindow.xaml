@@ -375,7 +375,7 @@
                                    Text="*The settings will be automatically saved. Click the "Settings" button again to close this page."/>
                         <TextBlock FontSize="14" Margin="0,0,0,12"
                                    Text="*Some settings may need to be reopened to take effect."/>
-                        <GroupBox Header="行为">
+                        <GroupBox Header="Behavior">
                             <ui:SimpleStackPanel Spacing="12">
                                 <ui:SimpleStackPanel Spacing="12" Orientation="Horizontal">
                                     <Button Content="Restart Now" Width="168" FontFamily="Microsoft YaHei UI" Click="BtnRestart_Click" Margin="0,0,0,10"/>
@@ -390,7 +390,7 @@
                                 <ui:ToggleSwitch Name="ToggleSwitchAutoEnterModeFinger" Header="Enter Finger Mode Automatically " FontFamily="Microsoft YaHei UI" OnContent=“On“ OffContent=“Off“ Toggled="ToggleSwitchAutoEnterModeFinger_Toggled"/>
                             </ui:SimpleStackPanel>
                         </GroupBox>
-                        <GroupBox Header="画板">
+                        <GroupBox Header="Drawing Board">
                             <ui:SimpleStackPanel Spacing="12">
                                 <StackPanel Orientation="Horizontal">
                                     <Slider x:Name="InkWidthSlider"
@@ -440,8 +440,7 @@
                         </GroupBox>
                         <GroupBox Header="Gesture">
                             <ui:SimpleStackPanel Spacing="12">
-                                <ui:ToggleSwitch Name="ToggleSwitchEnableTwoFingerZoom" Header="
-Allow two-finger zoom" FontFamily="Microsoft YaHei UI" IsOn="True" OnContent=“On“ OffContent=“Off“ Toggled="ToggleSwitchEnableTwoFingerZoom_Toggled"/>
+                                <ui:ToggleSwitch Name="ToggleSwitchEnableTwoFingerZoom" Header="Allow two-finger zoom" FontFamily="Microsoft YaHei UI" IsOn="True" OnContent=“On“ OffContent=“Off“ Toggled="ToggleSwitchEnableTwoFingerZoom_Toggled"/>
                                 <ui:ToggleSwitch Name="ToggleSwitchEnableTwoFingerTranslate" Header="Allow two-finger move" FontFamily="Microsoft YaHei UI" IsOn="True" OnContent=“On“ OffContent=“Off“ Toggled="ToggleSwitchEnableTwoFingerTranslate_Toggled"/>
                                 <ui:ToggleSwitch Name="ToggleSwitchEnableTwoFingerRotation" Header="Allow two-finger rotation" FontFamily="Microsoft YaHei UI" OnContent=“On“ OffContent=“Off“ Toggled="ToggleSwitchEnableTwoFingerRotation_Toggled"/>
                                 <TextBlock Text="Allow two-finger or multi-finger scaling operations on strokes after selection (this setting is not affected by the "Allow two-finger rotation" setting)." TextWrapping="Wrap" Foreground="#666666"/>
@@ -498,14 +497,14 @@ Allow two-finger zoom" FontFamily="Microsoft YaHei UI" IsOn="True" OnContent=“
                                 <TextBlock Text="Supporting WPS Office can cause lag when closing WPS Office, testing only." Margin="0,-12,0,0" Foreground="#666666"/>
                                 <ui:ToggleSwitch Name="ToggleSwitchSupportWPS" Header="WPS Office Support" IsOn="True" IsEnabled="True" FontFamily="Microsoft YaHei UI" OnContent=“On“ OffContent=“Off“ Toggled="ToggleSwitchSupportWPS_Toggled"/>
                                 <ui:ToggleSwitch Name="ToggleSwitchShowCanvasAtNewSlideShow" Header="Launch the drawing board when starting a presentation" IsOn="True" FontFamily="Microsoft YaHei UI" OnContent=“On“ OffContent=“Off“ Toggled="ToggleSwitchShowCanvasAtNewSlideShow_Toggled"/>
-                                <ui:ToggleSwitch Name="ToggleSwitchEnableTwoFingerGestureInPresentationMode" Header="允许幻灯片模式下的双指手势" FontFamily="Microsoft YaHei UI" OnContent=“On“ OffContent=“Off“ Toggled="ToggleSwitchEnableTwoFingerGestureInPresentationMode_Toggled"/>
+                                <ui:ToggleSwitch Name="ToggleSwitchEnableTwoFingerGestureInPresentationMode" Header="Allow two-finger gesture in slideshow mode." FontFamily="Microsoft YaHei UI" OnContent=“On“ OffContent=“Off“ Toggled="ToggleSwitchEnableTwoFingerGestureInPresentationMode_Toggled"/>
                                 <TextBlock Text="Allow to use finger gestures for slide paging when the drawing board is turned on (once activated, in slide presentation mode, when the drawing board is ink-free, simply slide left or right with your finger (the pen tip or palm cannot be recognized) to control page turning of the slide.)" TextWrapping="Wrap" Foreground="#666666"/>
                                 <ui:ToggleSwitch Name="ToggleSwitchEnableFingerGestureSlideShowControl" Header="Allow the use of finger gestures for slide paging." FontFamily="Microsoft YaHei UI" OnContent=“On“ OffContent=“Off“ IsOn="True" Toggled="ToggleSwitchEnableFingerGestureSlideShowControl_Toggled"/>
                                 <ui:ToggleSwitch Name="ToggleSwitchAutoSaveScreenShotInPowerPoint" Header="Automatic slide screenshot." IsOn="True" FontFamily="Microsoft YaHei UI" OnContent=“On“ OffContent=“Off“ Toggled="ToggleSwitchAutoSaveScreenShotInPowerPoint_Toggled"/>
                                 <TextBlock Text="After turning on, it will automatically save the existing ink this computer at the end of the slide show, and automatically load it when it is opened next time (the file name and the number of slide pages must be the same)." TextWrapping="Wrap" Foreground="#666666"/>
                                 <ui:ToggleSwitch Name="ToggleSwitchAutoSaveStrokesInPowerPoint" Header="Automatically save slide markings." IsOn="True" FontFamily="Microsoft YaHei UI" OnContent=“On“ OffContent=“Off“ Toggled="ToggleSwitchAutoSaveStrokesInPowerPoint_Toggled"/>
                                 <ui:ToggleSwitch Name="ToggleSwitchNotifyPreviousPage" Header="Remember and prompt the last playback position." IsOn="False" FontFamily="Microsoft YaHei UI" OnContent=“On“ OffContent=“Off“ Toggled="ToggleSwitchNotifyPreviousPage_Toggled"/>
-                                <ui:ToggleSwitch Name="ToggleSwitchNotifyHiddenPage" Header="提示隐藏幻灯片" IsOn="True" FontFamily="Microsoft YaHei UI" OnContent=“On“ OffContent=“Off“ Toggled="ToggleSwitchNotifyHiddenPage_Toggled"/>
+                                <ui:ToggleSwitch Name="ToggleSwitchNotifyHiddenPage" Header="Hide the slideshow." IsOn="True" FontFamily="Microsoft YaHei UI" OnContent=“On“ OffContent=“Off“ Toggled="ToggleSwitchNotifyHiddenPage_Toggled"/>
 
                                 <ui:ToggleSwitch Name="ToggleSwitchNoStrokeClearInPowerPoint" Header="Retain markings when exiting the drawing board mode." IsOn="True" FontFamily="Microsoft YaHei UI" OnContent=“On“ OffContent=“Off“ Toggled="ToggleSwitchNoStrokeClearInPowerPoint_Toggled"/>
                                 <ui:ToggleSwitch Name="ToggleSwitchShowStrokeOnSelectInPowerPoint" Header="Show markings when exiting the drawing board mode." IsOn="False" FontFamily="Microsoft YaHei UI" OnContent=“On“ OffContent=“Off“ Toggled="ToggleSwitchShowStrokeOnSelectInPowerPoint_Toggled"/>
@@ -614,7 +613,7 @@ Allow two-finger zoom" FontFamily="Microsoft YaHei UI" IsOn="True" OnContent=“
                         </GroupBox>
                         <GroupBox Name="GroupBoxMASEZVersion"
                                   Visibility="Collapsed"
-                                  Header="马鞍山二中专版说明">
+                                  Header="Ma'anshan No.2 Middle School Special Edition Instructions">
                             <ui:SimpleStackPanel Spacing="12">
                                 <TextBlock Name="TextBlockMASEZNotice" FontSize="14" Margin="0,0,0,0"/>
                                 <Viewbox Margin="0,0,0,0" Height="70" HorizontalAlignment="Left">
