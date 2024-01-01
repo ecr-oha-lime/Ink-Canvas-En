@@ -41,7 +41,7 @@ Unified chalk writing experience in slideshow presentations and whiteboard/black
   Multiple parallel lines, circles with or without focus, hyperbolas, parabolas
   Circles, dashed circles, cylinders, cones, rectangular solids
   The coordinate system (Plane Coordinate System, Space Coordinate System)
-* Ink to graphics, supports smart recognition of circles, triangles, special quadrilaterals, and automatically converts to a standard figure. It can automatically recognize concentric circles and tangent circles and automatically recognize sphere cross-section circles
+* Ink to shape, supports smart recognition of circles, triangles, special quadrilaterals, and automatically converts to a standard figure. It can automatically recognize concentric circles and tangent circles and automatically recognize sphere cross-section circles
 
 ### Ink Canvas features  
 * **Countdown**: Aesthetically pleasing UI, and can be displayed in almost full-screen size.
