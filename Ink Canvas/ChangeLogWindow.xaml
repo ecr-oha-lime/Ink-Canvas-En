@@ -14,13 +14,13 @@
             <RowDefinition/>
             <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
-        <Label Content="Ink Canvas 画板功能更新！" FontFamily="Microsoft YaHei UI" FontSize="26" Margin="20,0"/>
+        <Label Content="Ink Canvas has an updated feature!" FontFamily="Microsoft YaHei UI" FontSize="26" Margin="20,0"/>
         <StackPanel Grid.Row="1" Visibility="Collapsed">
-            <TextBlock Name="TextBlockChangeLogTitle" Text="更新日志" FontSize="18" FontWeight="Bold" Margin="35,10,35,0"/>
-            <TextBlock Name="TextBlockChangeLog" Text="修复一堆 Bug。" TextWrapping="Wrap" FontSize="14" Margin="55,5"/>
-            <TextBlock Name="TextBlockChangeLog1" Visibility="Collapsed" Text="修复墨迹识别功能中部分误识别问题。" TextWrapping="Wrap" FontSize="14" Margin="55,5"/>
-            <TextBlock Name="TextBlockSuggestionTitle" Text="建议" FontSize="18" FontWeight="Bold" Margin="35,10,35,0"/>
-            <TextBlock Name="TextBlockSuggestion" Text="建议配置屏幕为：3840×2160 (缩放: 250%)，或1920×1080 (缩放: 125%)，以获得最佳体验。" TextWrapping="Wrap" FontSize="14" Margin="55,5"/>
+            <TextBlock Name="TextBlockChangeLogTitle" Text="Update Log" FontSize="18" FontWeight="Bold" Margin="35,10,35,0"/>
+            <TextBlock Name="TextBlockChangeLog" Text="Fixed some bugs." TextWrapping="Wrap" FontSize="14" Margin="55,5"/>
+            <TextBlock Name="TextBlockChangeLog1" Visibility="Collapsed" Text="Fixed some misrecognition issues in Ink Recognition feature." TextWrapping="Wrap" FontSize="14" Margin="55,5"/>
+            <TextBlock Name="TextBlockSuggestionTitle" Text="Recommendation" FontSize="18" FontWeight="Bold" Margin="35,10,35,0"/>
+            <TextBlock Name="TextBlockSuggestion" Text="Recommended screen configuration: 3840x2160 (scaling: 250%) or 1920x1080 (scaling: 125%) for the best experience." TextWrapping="Wrap" FontSize="14" Margin="55,5"/>
         </StackPanel>
         <Grid Grid.Row="1" Margin="50,0,50,0" Visibility="Visible">
             <Grid.ColumnDefinitions>
@@ -37,15 +37,15 @@
             </Viewbox>
         </Grid>
         <ui:SimpleStackPanel VerticalAlignment="Bottom" Grid.Row="2" Margin="50,0">
-            <TextBlock Text="更新日志" FontSize="18" FontWeight="Bold" Margin="0,10,0,0"/>
-            <TextBlock Text="1. 支持多步撤销/重做" TextWrapping="Wrap" FontSize="14" Margin="25,5,0,0"/>
-            <TextBlock Text="2. 添加 PowerPoint 相关功能" TextWrapping="Wrap" FontSize="14" Margin="25,5,0,0"/>
-            <TextBlock Text="3. 提供白板选项" TextWrapping="Wrap" FontSize="14" Margin="25,5,0,0"/>
-            <TextBlock Text="4. 增加双曲线渐近线选项" TextWrapping="Wrap" FontSize="14" Margin="25,5,0,0"/>
-            <!--<TextBlock Text="建议" FontSize="18" FontWeight="Bold" Margin="0,10,0,0"/>
-            <TextBlock Text="建议配置屏幕为：3840×2160 (缩放: 250%)，或1920×1080 (缩放: 125%)，以获得最佳体验（否则可能造成橡皮大小过大或过小等问题，可在设置中调整）。" TextWrapping="Wrap" FontSize="14" Margin="25,5,-10,0"/>-->
+            <TextBlock Text="Update Log" FontSize="18" FontWeight="Bold" Margin="0,10,0,0"/>
+            <TextBlock Text="1. Support for multi-step undo & redo" TextWrapping="Wrap" FontSize="14" Margin="25,5,0,0"/>
+            <TextBlock Text="2. Add PowerPoint related features" TextWrapping="Wrap" FontSize="14" Margin="25,5,0,0"/>
+            <TextBlock Text="3. Provide whiteboard option" TextWrapping="Wrap" FontSize="14" Margin="25,5,0,0"/>
+            <TextBlock Text="4. Add hyperbola asymptote option" TextWrapping="Wrap" FontSize="14" Margin="25,5,0,0"/>
+            <!--<TextBlock Text="Recommendation" FontSize="18" FontWeight="Bold" Margin="0,10,0,0"/>
+            <TextBlock Text="Suggest configuring the screen: 3840×2160 (Zoom: 250%), or 1920×1080 (Zoom: 125%) for the best experience (otherwise, it may cause issues like eraser size being too large or too small, which can be adjusted in settings)." TextWrapping="Wrap" FontSize="14" Margin="25,5,-10,0"/>-->
         </ui:SimpleStackPanel>
         <Label Name="LabelVersion" Grid.Row="3" VerticalContentAlignment="Center" FontSize="12" Margin="20,0"/>
-        <Button Content="确定" Grid.Row="3" HorizontalAlignment="Right" Margin="10" Width="100" FontFamily="Microsoft YaHei UI" Click="Button_Click"/>
+        <Button Content="Okay." Grid.Row="3" HorizontalAlignment="Right" Margin="10" Width="100" FontFamily="Microsoft YaHei UI" Click="Button_Click"/>
     </Grid>
 </Window>
