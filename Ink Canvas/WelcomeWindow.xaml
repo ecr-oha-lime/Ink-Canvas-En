@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Ink_Canvas" xmlns:ui="http://schemas.modernwpf.com/2019"
         mc:Ignorable="d" Topmost="True" ResizeMode="NoResize" ui:WindowHelper.UseModernWindowStyle="True"
         WindowStartupLocation="CenterScreen" FontFamily="Microsoft YaHei UI" Closing="Window_Closing"
-        Title="欢迎向导 - Ink Canvas 画板" Height="280" Width="400" Loaded="Window_Loaded">
+        Title="Welcome Guide - Ink Canvas" Height="280" Width="400" Loaded="Window_Loaded">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="40"/>
