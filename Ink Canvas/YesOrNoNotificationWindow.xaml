@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Ink_Canvas" xmlns:ui="http://schemas.modernwpf.com/2019"
         mc:Ignorable="d" Topmost="True" WindowStartupLocation="CenterScreen" ui:WindowHelper.UseModernWindowStyle="True"
         ResizeMode="NoResize" Closed="Window_Closed" ui:ThemeManager.RequestedTheme="Light"
-        Title="演示文档设置 - Ink Canvas 画板" Height="160" Width="450" FontFamily="Microsoft YaHei UI">
+        Title="Presentation document settings - Ink Canvas" Height="160" Width="450" FontFamily="Microsoft YaHei UI">
     <Grid>
         <Grid Margin="10">
             <Grid.RowDefinitions>
@@ -18,8 +18,8 @@
             </Viewbox>
             <Label Name="Label" Margin="60,20,0,20" VerticalAlignment="Center"/>
             <ui:SimpleStackPanel Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Bottom" Orientation="Horizontal" Spacing="10">
-                <Button Margin="0" Content="是" Width="100" FontFamily="Microsoft YaHei UI" Click="ButtonYes_Click"/>
-                <Button Margin="0" Content="否" Width="100" FontFamily="Microsoft YaHei UI" Click="ButtonNo_Click"/>
+                <Button Margin="0" Content="Yes" Width="100" FontFamily="Microsoft YaHei UI" Click="ButtonYes_Click"/>
+                <Button Margin="0" Content="No" Width="100" FontFamily="Microsoft YaHei UI" Click="ButtonNo_Click"/>
             </ui:SimpleStackPanel>
         </Grid>
     </Grid>
