@@ -3,7 +3,7 @@
 [![LOGO](Ink%20Canvas/Resources/InkCanvas.png?raw=true "LOGO")](# "LOGO")
 
 # Ink-Canvas
-[Direct Download](https://githubfast.com/WXRIW/Ink-Canvas/releases/latest "Latest Releases") | [User Guide ](https://githubfast.com/WXRIW/Ink-Canvas/blob/master/Manual.md "Instructions and Guide") | [Frequently Asked Questions ](https://githubfast.com/WXRIW/Ink-Canvas#FAQ "FAQ")
+[Direct Download](https://github.com/WXRIW/Ink-Canvas/releases/latest "Latest Releases") | [User Guide ](https://github.com/WXRIW/Ink-Canvas/blob/master/Manual.md "Instructions and Guide") | [Frequently Asked Questions ](https://github.com/WXRIW/Ink-Canvas#FAQ "FAQ")
   
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FWXRIW%2FInk-Canvas.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FWXRIW%2FInk-Canvas?ref=badge_shield) [![Communication Group](https://img.shields.io/badge/-%E4%BA%A4%E6%B5%81%E7%BE%A4%20891915376-blue?style=flat&logo=TencentQQ)](https://jq.qq.com/?_wv=1027&k=NvlM1Rgg)  ![GitHub issues](https://img.shields.io/github/issues/WXRIW/Ink-Canvas?logo=github)
 
@@ -29,7 +29,7 @@ Supports Active Pen (pressure sensitivity)
 Similar functionality can be provided for other infrared screens, everyone is welcome to test it out!
 
 ## ⚠️ Reminder
-- Before asking a question, please read the [FAQ](https://githubfast.com/WXRIW/Ink-Canvas#FAQ "FAQ").
+- Before asking a question, please read the [FAQ](https://github.com/WXRIW/Ink-Canvas#FAQ "FAQ").
 - If you encounter a problem, please try to solve it yourself first. If you are unable to solve it, please briefly describe the difference between your expectations and reality. If necessary, please provide the steps to reproduce the issue or error logs¹ (with appropriate screenshots), and wait for a reply.
 - Valid opinions and reasonable suggestions for new features will be replied to and considered by the developers. Ink Canvas is not a commercial software, so please refrain from rushing the developers. Patience will help make the software have fewer bugs and more stability.
 
@@ -58,9 +58,9 @@ If the issue persists, check if `Microsoft Office` is installed on your computer
 
 1. GitHub Issues
 
-    Feature request: https://githubfast.com/WXRIW/Ink-Canvas/labels/enhancement/new 
+    Feature request: https://github.com/WXRIW/Ink-Canvas/labels/enhancement/new 
 
-    Error report: https://githubfast.com/WXRIW/Ink-Canvas/labels/bug/new
+    Error report: https://github.com/WXRIW/Ink-Canvas/labels/bug/new
 
 2. Tencent QQ
     [![Communicate Group](https://img.shields.io/badge/-%E4%BA%A4%E6%B5%81%E7%BE%A4%20891915376-blue?style=flat&logo=TencentQQ)](https://jq.qq.com/?_wv=1027&k=NvlM1Rgg) 
@@ -70,9 +70,9 @@ Click on the "Settings" button in the drawing board and enable the `Special Scre
 
 
 ## Thanks
-Thanks [yuwenhui2020](https://githubfast.com/yuwenhui2020) for contributions to the `Ink Canvas documentation`!
+Thanks [yuwenhui2020](https://github.com/yuwenhui2020) for contributions to the `Ink Canvas documentation`!
 
-Thanks [CN-Ironegg](https://githubfast.com/CN-Ironegg), [jiajiaxd](https://githubfast.com/jiajiaxd), [Kengwang](https://githubfast.com/kengwang), [Raspberry Kan](https://githubfast.com/Raspberry-Monster) for contributing code to this project!.
+Thanks [CN-Ironegg](https://github.com/CN-Ironegg), [jiajiaxd](https://github.com/jiajiaxd), [Kengwang](https://github.com/kengwang), [Raspberry Kan](https://github.com/Raspberry-Monster) for contributing code to this project!.
 
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FWXRIW%2FInk-Canvas.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FWXRIW%2FInk-Canvas?ref=badge_large)
