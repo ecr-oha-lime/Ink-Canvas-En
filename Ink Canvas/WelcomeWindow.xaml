@@ -16,13 +16,13 @@
         <Label Content="欢迎在马鞍山二中使用 Ink Canvas 画板" FontSize="20" Margin="10,10,0,0"/>
         <Image Source="Resources/Logo.png" Grid.Row="1" HorizontalAlignment="Right" Margin="20"/>
         <ui:SimpleStackPanel Grid.Row="1" Margin="30,10,0,0">
-            <CheckBox Name="CheckBoxSetAsRecommendation" FontFamily="Microsoft YaHei UI" Content="配置为推荐设置" IsChecked="True"/>
-            <CheckBox Name="CheckBoxRunAtStartup" FontFamily="Microsoft YaHei UI" Content="开机时运行" IsChecked="True"/>
-            <CheckBox Name="CheckBoxAutoKillPptService" FontFamily="Microsoft YaHei UI" Content="自动查杀“PPT 小工具”" IsChecked="True"/>
+            <CheckBox Name="CheckBoxSetAsRecommendation" FontFamily="Microsoft YaHei UI" Content="Configure as recommended settings" IsChecked="True"/>
+            <CheckBox Name="CheckBoxRunAtStartup" FontFamily="Microsoft YaHei UI" Content="Run at startup" IsChecked="True"/>
+            <CheckBox Name="CheckBoxAutoKillPptService" FontFamily="Microsoft YaHei UI" Content="Automatically turn off "Seewo PPT tools”" IsChecked="True"/>
             <CheckBox Name="CheckBoxAutoKillEasiNote" FontFamily="Microsoft YaHei UI" Content="自动查杀“希沃白板 5”"/>
-            <CheckBox Name="CheckBoxNewBuildingOptimization" FontFamily="Microsoft YaHei UI" Content="新综合楼优化"/>
+            <CheckBox Name="CheckBoxNewBuildingOptimization" FontFamily="Microsoft YaHei UI" Content="New Comprehensive Building Optimization"/>
         </ui:SimpleStackPanel>
         <Button Grid.Row="2" Margin="0,0,10,10" FontFamily="Microsoft YaHei UI"
-                HorizontalAlignment="Right" Content="确定" Width="100" Click="Button_Click"/>
+                HorizontalAlignment="Right" Content="Confirm" Width="100" Click="Button_Click"/>
     </Grid>
 </Window>
